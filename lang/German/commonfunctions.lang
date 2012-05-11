@@ -1,0 +1,10 @@
+# commonfunctions.sh - German language file
+
+bb_cf_text1="CD scheint schon beschrieben zu sein. Moechtest Du sie loeschen?"
+bb_cf_text2="Antworte nur 'yes', wenn das eine wiederbeschreibare CD ist. Gib"
+bb_cf_text3="'abort' ein, wenn Du abbrechen und zurueck zum Menue willst.."
+bb_cf_text4="Abbrechen..."
+
+bb_cf_text5="Versuche Brennen ohne CD zu loeschen, was wahrscheinlich misslingt."
+bb_cf_text6="Loeschen gescheitert. Brennprozess abgebrochen"
+

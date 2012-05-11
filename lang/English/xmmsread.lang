@@ -1,0 +1,13 @@
+# xmmsread.sh - English language
+
+bb_xmms_text1="Path to playlist must be entered as /home/user/playlist.m3u"
+bb_xmms_text2="Enter path to playlist: "
+bb_xmms_text3="created ..."
+bb_xmms_text4="moved to"
+bb_xmms_text5="moving on..."
+bb_xmms_text6="couldn't be created."
+
+bb_xmms_text7="Maybe you need to adjust some permissions?"
+bb_xmms_text8="Bad input file"
+bb_xmms_text9="Maybe you entered the wrong path?"
+

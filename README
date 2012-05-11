@@ -1,0 +1,32 @@
+=================
+MyBashBurn README
+=================
+
+MyBashBurn is released under the GNU General Public License.
+
+If you're interesating in know more about the origin of project visit:
+http://www.fedora-ve.org/mybashburn/index.html#History
+
+Read the INSTALL file for a detailed description of how to install MyBashBurn or
+visit http://www.fedora-ve.org/mybashburn/index.html#Support for more details.
+
+A list of the required/recommended "backend applications":
+
+- dialog (hard required)
+- coreutils (hard required)
+- cdrdao (required)
+- cdrecord (required) 
+- mkisofs (required)
+- cdda2wav (required)
+- dvd+rw-tools (recommended)
+- lame (recommended)
+- vorbis-tools (recommended)
+- flac (recommended)
+- eject (recomended)
+- normalize (recomended)
+
+You also can check if you have all the components installed on your system
+running "Check Program Paths" from MyBashBurn main menu.
+
+=============================================
+$Id: README 18 2006-12-20 17:24:06Z k0k $

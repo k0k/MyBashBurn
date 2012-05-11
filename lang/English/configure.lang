@@ -1,0 +1,197 @@
+# configure.sh - English language
+
+bb_conf_menu_toptext1="Setup"
+bb_conf_menu_toptext2="Current value"
+
+bb_conf_menu1="CD-Writer\t\t\t"
+bb_conf_menu2="CD-Reader Device File\t"
+bb_conf_menu3="CD-Reader Mount Point\t"
+bb_conf_menu4="Speed\t\t\t"
+bb_conf_menu5="Blanking Type\t\t"
+bb_conf_menu6="Number of Devices\t\t"
+bb_conf_menu7="Root Directory\t\t"
+bb_conf_menu8="Burn Directory\t\t"
+bb_conf_menu9="CD Label\t\t\t"
+bb_conf_menu10="Copyright\t\t\t"
+bb_conf_menu11="Author\t\t\t"
+bb_conf_menu12="Publisher\t\t\t"
+bb_conf_menu13="Description\t\t"
+bb_conf_menu14="Name of the package\t"
+bb_conf_menu15="Normalize\t\t\t"
+bb_conf_menu16="Driver options\t\t"
+bb_conf_menu17="FIFO directory\t\t"
+bb_conf_menu18="Delete temp after burn\t"
+bb_conf_menu19="Allow overburn\t\t"
+bb_conf_menu20="Copy protection\t\t"
+bb_conf_menu21="Set the Bitrate\t\t"
+bb_conf_menu22="Language\t\t\t"
+bb_conf_menu23="DAO/TAO\t\t\t"
+bb_conf_menu24="Apply changes\t"
+bb_conf_menu25="Apply defaults\t"
+bb_conf_menu0="Back"
+bb_conf_menu_entry="Your Choice?"
+
+bb_conf_ch1_1="The burner is supposed to be entered as 0,0,0 (For SCSI)"
+bb_conf_ch1_2="ATAPI:0,0,0 or /dev/hdX (For IDE burners)"
+bb_conf_ch1_3="(Where hdX is the proper drive, like hdc)"
+bb_conf_ch1_4="You can also use the device name i.e, yahama, sanyo, etc."
+bb_conf_ch1_5="if "
+bb_conf_ch1_6="is properly configured."
+bb_conf_ch1_7="(Possible) SCSI DEVICES:"
+bb_conf_ch1_8="(Possible) IDE DEVICES:"
+bb_conf_ch1_9="Enter path to burner: "
+bb_conf_ch1_10="Auto detect mode: type auto"
+
+bb_conf_ch2_1="The path to the cdrom device file is usually something like /dev/cdrom or /dev/dvd"
+bb_conf_ch2_2="List of possible cdrom drives (According to /etc/fstab): "
+bb_conf_ch2_3="Enter cdrom device file: "
+
+bb_conf_ch3_1="The mountpoint to your cdrom is usually something like /mnt/cdrom or /mnt/dvd"
+bb_conf_ch3_2="List of possible cdrom drives (According to /etc/fstab): "
+bb_conf_ch3_3="Enter cdrom mount point: "
+
+bb_conf_ch4_1="Note that newer cdrecord versions do not default"
+bb_conf_ch4_2="to speed=1. For MMC compliant drives, the default"
+bb_conf_ch4_3="is to write at maximum speed, so it in general does"
+bb_conf_ch4_4="not make sense to set up a default speed."
+bb_conf_ch4_5="Unless you have a good reason, use speed == -1 and let"
+bb_conf_ch4_6="cdrecord use its internal drive specific defaults."
+bb_conf_ch4_7="Enter speed of burner: "
+
+bb_conf_ch5_1="Enter type of blanking. Default is all or disc"
+bb_conf_ch5_2="Currently set as "
+
+bb_conf_ch6_1="Do you have both a cdreader and cdwriter?"
+bb_conf_ch6_2="If so, enter 2. If not, enter 1"
+
+bb_conf_ch7_1="Root directory is the location of MyBashBurn shellscripts."
+bb_conf_ch7_2="Only change it if you know what you are doing."
+bb_conf_ch7_3="If you want to cancel, just enter "
+bb_conf_ch7_4=" at the prompt."
+
+bb_conf_ch8_1="Burn directory is where you put/link the files to be burnt."
+bb_conf_ch8_2="Be sure to have write permissions to this directory."
+
+bb_conf_ch9_1="This is the name that will be used as the mount point used"
+bb_conf_ch9_2="by the Solaris volume management system and the name that is"
+bb_conf_ch9_3="assigned to the disc on a Microsoft Win32 or Apple Mac platform."
+bb_conf_ch9_4="The current label is "
+bb_conf_ch9_4b="If you want to be asked each time what label name you want"           # New in 1.6
+bb_conf_ch9_4c="enter <ask-me> as the label."                                         # New in 1.6 
+bb_conf_ch9_5="Enter the wanted Label of the CD:"
+
+bb_conf_ch10_1="If you want to set a copyright on your CD, enter it here:"
+
+bb_conf_ch11_1="This should describe the preparer of the CDROM, usually"
+bb_conf_ch11_2="with a mailing address and phone number.  There is space"
+bb_conf_ch11_3="on the disc for 128 characters of information."
+bb_conf_ch11_4="The current author is "
+bb_conf_ch11_5="Enter the Author/Owner of the CD - hey, thats you, isnt it?"
+
+bb_conf_ch12_1="This should describe the publisher of the CDROM,"
+bb_conf_ch12_2="usually with a mailing address and phone number."
+bb_conf_ch12_3="There is space on the disc for 128 characters of information."
+bb_conf_ch12_4="The current publisher is "
+bb_conf_ch12_5="Enter the Publisher of the CD (if there is one):"
+
+bb_conf_ch13_1="This should describe the application that will be on"
+bb_conf_ch13_2="the disc.  There is space on the disc for 128 characters"
+bb_conf_ch13_3="of information.   The current description is:"
+bb_conf_ch13_4="Describe the content of the CD:"
+
+bb_conf_ch14_1="A package consists of several CDs, for example, an OS in"
+bb_conf_ch14_2="which the software is spread across several disks."
+bb_conf_ch14_3="This is optional.  If you use it set the number"
+bb_conf_ch14_4="of CDs and each disk number."
+bb_conf_ch14_5="The current package name is "
+bb_conf_ch14_6="Enter the name of the package:"
+
+bb_conf_ch15_1="Normalize is used to adjust the volume of wav audio files to a standard"
+bb_conf_ch15_2="volume level. This is useful for things like creating mp3 mixes,  where"
+bb_conf_ch15_3="different  recording levels on different albums can cause the volume to"
+bb_conf_ch15_4="vary greatly from song to song.  Currently set as "
+bb_conf_ch15_5="Only enter yes if you have the normalize program installed, otherwise say no."
+
+bb_conf_ch16_1="Enter the driver option(s) you would like to use, separate"
+bb_conf_ch16_2="them with a comma. If unsure, just press enter without writing anything."
+
+bb_conf_ch17_1="Enter location of FIFO-directory. This is only needed"
+bb_conf_ch17_2="for piped burning, and most times the standard value is fine."
+bb_conf_ch17_3="If you want to cancel just enter "
+bb_conf_ch17_4=" at the prompt."
+bb_conf_ch17_5=" is the current FIFO-directory)"
+
+bb_conf_ch18_1="Delete files in "
+bb_conf_ch18_2=" after burn is complete?"
+bb_conf_ch18_3="Default is no, which you should enter if you are"
+bb_conf_ch18_4="going to burn those files more than once..."
+
+bb_conf_ch19_1="Would you like MyBashBurn to allow overburn? Your"
+bb_conf_ch19_2="burner must support it, and it is not certain"
+bb_conf_ch19_3="that it will work anyway, since this might burn"
+bb_conf_ch19_4="more onto the CD than it was designed for."
+bb_conf_ch19_5="Default is no. (yes/no)"
+
+bb_conf_ch20_1="This setting is for audio cds. Are the contents copy protected?"
+bb_conf_ch20_2="Default is no. "
+bb_conf_ch20_3="NOTE: "
+bb_conf_ch20_4="This option does "
+bb_conf_ch20_5="not"
+bb_conf_ch20_6=" actually copy protect the audio files"
+bb_conf_ch20_7="being burnt, it just tells cdrecord to indicate if they are."
+
+bb_conf_ch21_1="Bitrate is of course the main influence on quality for audio files."
+bb_conf_ch21_2="The higher the bitrate, the higher the quality. Higher bitrate will"
+bb_conf_ch21_3="of course also mean bigger size of the audio files."
+bb_conf_ch21_4="Configure bitrate for mp3 and ogg audio files."
+bb_conf_ch21_5="Default is 128. "
+
+bb_conf_ch22_1="This is where you set the language of MyBashBurn, default is English."
+bb_conf_ch22_2="Available languages:"
+
+bb_conf_ch23_1="This is for telling cdrecord to burn in:"
+bb_conf_ch23_2="SAO (Session at Once)"
+bb_conf_ch23_2b=" also called "
+bb_conf_ch23_2c="DAO (Disk at once)"
+bb_conf_ch23_3="or"
+bb_conf_ch23_4="TAO (Track at once)"
+bb_conf_ch23_5=" mode. Default is TAO."
+bb_conf_ch23_6="For more info, check the cdrecord manual. (man cdrecord)"
+bb_conf_ch23_7="Enter your choice as -tao, -sao or -dao (SAO and DAO are the same)"
+
+
+
+bb_conf_apply_1="Changes applied!"
+bb_conf_apply_2="Could not write into"
+bb_conf_apply_3="You might want to chmod 666"
+
+bb_conf_def_1="Defaults applied!"
+bb_conf_def_2="(BBROOTDIR has *no* default - you have to change it!)"
+
+bb_conf_xit_1="Back to main menu"
+bb_conf_xit_2="You did hit APPLY CHANGES before leaving, right?"
+
+bb_conf_err="Please enter "
+
+bb_conf_save="Save"
+bb_conf_wait="Please Wait ..."
+bb_conf_more="More"
+bb_conf_found="Device not found!"
+bb_conf_mount="Mount point no found!"
+bb_conf_blanking_1="blank the entire disk"
+bb_conf_blanking_2="blank the entire disk"
+bb_conf_blanking_3="blank the entire disk"
+bb_conf_blanking_4="minimally blank the entire disk (PMA, TOC, pregap)" 
+bb_conf_blanking_5="minimally blank the entire disk (PMA, TOC, pregap)" 
+bb_conf_blanking_6="blank a track"
+bb_conf_blanking_7="unreserve a track"
+bb_conf_blanking_8="blank a track tail"
+bb_conf_blanking_9="unclose last session"
+bb_conf_blanking_10="blank last session"
+
+bb_conf_ch6_device="cdreader/cdwriter"
+
+bb_conf_ch16_driver="This driver no have options support."
+bb_conf_ch17_continue="You want to continue?"
+
+bb_conf_ch24_confirm="You Really want apply default values?"

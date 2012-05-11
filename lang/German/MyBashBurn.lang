@@ -1,0 +1,51 @@
+# MyBashBurn.sh - German language
+
+bb_conf_check1="MyBashBurn wurde noch nicht konfiguriert. Konfiguriere BashBurn "
+bb_conf_check2="vor der Benutzung ueber das Menue 'MyBashBurn konfigurieren'."
+
+bb_quit1="Danke fuer die Benuetzung von "
+bb_quit2="Besuche "
+bb_quit3="http://mybashburn.sf.net "
+bb_quit4="fuer Informationen und Updates."
+
+bb_press_enter="Druecke 'ENTER' um weiterzukommen."
+
+bb_no_temp_dir="Fehlendes Verzeichnis fuer temporaere Dateien! Versuche es zu erstellen."
+
+bb_text_1="erfolgreich erstellt!"
+bb_text_2="Konfiguriere MyBashBurn vor dem Brennen von CD's."
+bb_text_3="Du hast keine Schreibberechtigung fuer"
+bb_text_4="Aendere diesen Wert im Konfigurationsdialog oder Du wirst nichts brennen koennen."
+bb_text_5="Das Verzeichnis"
+bb_text_6="existiert nicht, obwohl Du es in die Konfigurationsdatei eingegeben hast"
+
+bb_text_7="Suche CD Brenner...."
+bb_text_8="Gefunden: "
+
+bb_menu_1="Audio"
+bb_menu_2="Daten"
+bb_menu_3="ISO"
+bb_menu_4="Bin/Cue"
+bb_menu_5="Multisession"
+bb_menu_6="CDRW loeschen"
+bb_menu_7="MyBashBurn konfigurieren"
+bb_menu_8="CD ein-/aushaengen (mount)"
+bb_menu_9="Programmpfade ueberpruefen"
+bb_menu_10="Definieren der Brenndateien"
+bb_menu_0="Beenden"
+bb_menu_input="Was moechtest Du tun? "
+
+bb_cdrw_blank1="Loesche CD..."
+bb_cdrw_blank2="CDRW geloescht"
+bb_cdrw_blank3="Einfaches Loeschen fehlgeschlagen! Versuche es zu erzwingen..."
+bb_cdrw_blank4="Erzwungenes Loeschen war erfolgreich."
+bb_cdrw_blank5="Loeschen war nicht erfolgreich. Du solltest diese CD ersetzen!"
+bb_cdrw_blank6="CD/DVD ist geloescht oder keine im Laufwerk, loesche nichts..."
+
+bb_burndir_view="Inhalt von"
+bb_burndir_del1="Moechtest Du wirklich alle Dateien loeschen in"
+bb_burndir_del1b="('y'=ja/'n'=nein)"
+bb_burndir_del2="ist geloescht."
+bb_burndir_del3="Loeschen abgebrochen"
+
+bb_exit_error="Bitte waehle "

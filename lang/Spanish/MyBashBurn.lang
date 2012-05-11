@@ -1,0 +1,73 @@
+# MyBashBurn.sh - Spanish language
+
+bb_conf_check1="MyBashBurn no ha sido configurado aun. Entre a 'Configurar' e"
+bb_conf_check2="ingrese la informacion necesaria antes de usarlo ."
+
+bb_quit1="Gracias por usar "
+bb_quit2="Visite "
+bb_quit3="http://mybashburn.sf.net "
+bb_quit4="para informacion y actualizaciones."
+
+bb_press_enter="Presione [ENTER] para continuar."
+
+bb_no_temp_dir="El directorio para los archivos temporarios no existe. Intentando crearlos..."
+
+bb_text_1="creado satisfactoriamente!"
+bb_text_2="Configure MyBashBurn antes de grabar"
+bb_text_3="No tiene permisos para escribir"
+bb_text_4="Cambie este valor en la configuracion o no podra grabar."
+bb_text_5="El directorio"
+bb_text_6="no existe, a pesar de que lo has escrito en el archivo de configuracion"
+
+bb_text_7="Detectando grabadora de CD ...."
+bb_text_8="Detectada: "
+
+bb_menu_1="Audio"
+bb_menu_2="Datos"
+bb_menu_3="ISO"
+bb_menu_4="Bin/Cue"
+bb_menu_5="Multisesion"
+bb_menu_6="Borrar CDRW"
+bb_menu_7="Configurar MyBashBurn"
+bb_menu_8="Montar/Desmontar CD"
+bb_menu_9="Comprobar rutas de programas"
+bb_menu_10="Defina datos a grabar"		# Edited once again in 1.6
+bb_menu_11="Creditos"
+bb_menu_0="Salir"
+bb_menu_input="Seleccione una opcion:"
+
+bb_cdrw_blank1="Borrar CD..."
+bb_cdrw_blank2="CDRW limpio"
+bb_cdrw_blank3="El borrado ha fallado. Intentando borrado forzado..."
+bb_cdrw_blank4="Borrado forzado completada satisfactoriamente."
+bb_cdrw_blank5="El borrado no pudo ser completado. Deberia reemplazar este CD."
+bb_cdrw_blank6="CD/DVD parece estar vacio (O no hay CD en dispositivo), no se borrara..."
+
+bb_burndir_view="Los contenidos de "
+bb_burndir_del1="Realmente desea borrar todos los archivos en"
+bb_burndir_del1b="(y/n)"
+bb_burndir_del2="esta limpio."
+bb_burndir_del3="Borrado cancelado"
+
+bb_exit_error="Por favor elija "
+
+bb_failed=" ¡Fallo! "
+bb_information=" Informacion "
+bb_checking="Comprobando"
+bb_loading="Cargando"
+bb_return="Regresar"
+bb_main_menu="Menu Principal"
+
+bb_pid_make="Creando pid ..."
+bb_pid_make_message1="MyBashBurn no puede crear un PID de bloqueo"
+bb_pid_make_message2="posiblemente ya esta ejecutando otra instancia de MyBashBurn. "
+bb_pid_make_message3="¿Usted realmente quiere continuar?"
+
+bb_pid_remove="Removiendo pid ..."
+
+bb_term_check_message1="Comprobando tamaño de terminal ..."
+bb_term_check_message2="El tamaño del Terminal debe ser corregido, el tamaño actual es"
+
+bb_setup_check="Comprobando por configuracion ..."
+
+bb_help_button="Ayuda"

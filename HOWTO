@@ -1,0 +1,28 @@
+================
+MyBashBurn HOWTO
+================
+
+MyBashBurn is the version/fork owned for the cd burning shell
+script called BashBurn for Linux, this originally not have 
+the best eye-candy CD-burning, neverthless, MyBashBurn use 
+dialog box function which draws (using ncurses) windows onto
+the screen. MyBashBurn dialog box offer best funcionability,
+has very good capabilities of automatically finding 
+dependencies and autodetect devices CD/DVD RW. In short, 
+don't reinvent the wheel, but just let MyBashBurn 
+does what you want it to do.
+
+MyBashBurn can burn data cds, music cds, multisession cds.
+It can burn and create ISO files. It can burn bin/cue files,
+create mp3s, oggs and flac files. Supports burning DVD-images
+and data DVDs, and others funny options. MyBashBurn depends 
+on cdrecord and others backend aplications, so basically if
+your writing device works with it, MyBashBurn will work flawlessly.
+
+Remember that MyBashBurn is on development and also this HOWTO.
+
+Any problems with MyBashBurn mail me at wilmer@fedoraproject.org
+or post on the MyBashBurn mailing list.
+
+=============================================
+$Id: HOWTO 28 2007-01-06 17:05:14Z k0k $

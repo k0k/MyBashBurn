@@ -1,0 +1,27 @@
+# data_menu.sh - Spanish language
+
+bb_dm_newcd="Inserte un CD en blanco y presione [ENTER] para continuar"
+
+bb_dm_wait="Presione [ENTER] para volver al menu principal."
+
+bb_dm_menu_title="Menu de Datos"
+bb_dm_menu_1="Grabar Datos"
+bb_dm_menu_2="Copiar CD de Datos(CD a CD)"
+bb_dm_menu_3="Grabar DVD de Datos"
+bb_dm_menu_0="Volver"
+bb_dm_menu_entry="Su opcion? "
+
+bb_dm_ch2_1=" no montado! Debe montarlo primero..."
+bb_dm_ch2_2="Un archivo ISO existe en "
+bb_dm_ch2_3=" Borrarlo o moverlo"
+bb_dm_ch2_4="antes de intentar crear uno nuevo."
+bb_dm_ch2_5="CD copiado!"
+bb_dm_ch2_6="Comenzando grabacion"
+
+bb_dm_ch0="Volviendo al menu.."
+
+bb_dm_error="Por favor ingrese "
+
+bb_dm_cdcopy="Copiando contenidos del CD a "
+bb_dm_cdcopy_err1="Error en la transferencia. Esta seguro que tiene el CD correcto en el dispositivo?"
+bb_dm_cdcopy_err2="(Vea los mensajes de error para obtener pistas)"

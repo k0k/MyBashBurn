@@ -1,0 +1,10 @@
+# commonfunctions.sh - Polish language file
+
+bb_cf_text1="p³yta CD prawdopodobnie jest ju¿ nagrana. Czy chcesz j± "
+bb_cf_text2="skasowaæ. Wpisz 'yes' tylko gdy jest to dysk RW. 'abort'"
+bb_cf_text3="je¶li chcesz przerwaæ i wróciæ do menu"
+bb_cf_text4="Anulowanie..."
+
+bb_cf_text5="Próba nagrania p³yty bez kasowania. Prawdopodobnie wyst±pi b³±d"
+bb_cf_text6="Kasowanie nieudane. Nagrywanie przerwane"
+

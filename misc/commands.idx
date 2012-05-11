@@ -1,0 +1,18 @@
+# Commands.idx - some required commands.
+# $Id: commands.idx 35 2007-05-24 12:06:48Z k0k $
+
+# Programs used by MyBashBurn
+export BB_CDBURNCMD="cdrecord"
+export BB_DVDBURNCMD="growisofs"
+export BB_ISOCMD="mkisofs"
+export BB_CDIMAGECMD="cdrdao"
+export BB_CDAUDIORIP="cdda2wav"
+export BB_READCD="readcd"
+export BB_READCD_OPTS="-clone -s -nocorr -noerror"
+export BB_MP3ENC="lame"
+export BB_OGGENC="oggenc"
+export BB_OGGDEC="oggdec"
+export BB_FLACCMD="flac"
+export BB_EJECT="eject"
+export BB_NORMCMD="normalize"
+export BB_MP3DEC="mpg123"

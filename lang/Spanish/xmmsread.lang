@@ -1,0 +1,13 @@
+# xmmsread.sh - Spanish language
+
+bb_xmms_text1="Ruta a playlist debe ser entrada como /home/user/playlist.m3u"
+bb_xmms_text2="Ingrese la ruta del playlist: "
+bb_xmms_text3="creado ..."
+bb_xmms_text4="movido a"
+bb_xmms_text5="moviendo ..."
+bb_xmms_text6="no puede ser creado."
+
+bb_xmms_text7="¿Tal vez usted necesita ajustar algunos permisos?"
+bb_xmms_text8="Archivo incorrecto, entrada no valida"
+bb_xmms_text9="¿Tal vez usted ingreso una ruta no valida?"
+

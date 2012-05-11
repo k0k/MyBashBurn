@@ -1,0 +1,118 @@
+===============
+MyBashBurn FILE
+===============
+
+filename			MyBashBurn.sh (BashBurn.sh)
+original author			Anders Lindén
+initial date			Late 2001
+description			This is the main-program of the
+				burning-program MyBashBurn. MyBashBurn is
+				able to burn:
+				* Audio-CDs (From mp3, wav, ogg files and xmms playlists)
+				* Data-CDs
+				* CDs from ISOs
+				* CDs from CDs
+				* Multisession CDs
+				
+				
+filename			audio_menu.sh
+original author			Anders Lindén
+initial date			February 2002
+description			This shellscript prints a sub-menu of
+				the main-one of BashBurn for choosing
+				what BashBurn will do if you want to burn an AUDIO-cd
+				
+				
+filename			data_menu.sh
+original author			Anders Lindén
+initial date			February 2002
+description			This shellscript prints a sub-menu of
+				the main-one of BashBurn for choosing
+				what BashBurn will do if you want to burn a DATA-cd
+
+				
+filename			iso_menu.sh
+original author			Anders Lindén
+initial date			February 2002
+description			This shellscript prints a sub-menu of
+				the main-one of BashBurn for choosing
+				what BashBurn will exactly do if you
+				want to burn an ISO-cd.
+					
+				
+filename			xmmsread.sh
+author				Anders Lindén
+init date			020501
+description			This script read the xmms
+				playlist you enter, creates wav
+				files from the files it founds and
+				copies them to BURNDIR to be burnt
+Bugs?				Most likely. This is a simple script that
+				once I learn awk, cut or some other fancy
+				schmansy tool will be tuned up a lot. 
+				Report bugs and suggestions to
+				anders.linden@gmail.com
+
+
+filename			burning.sh
+original author			Anders Lindén
+Initial date			Late 2001
+description			This shellscript is the core of BashBurn, because here
+				is the real burning-part. At the moment it can burn
+				audio-, data-files or ISOs on a CD.(--audio, --data or --iso --pipeline)
+
+
+filename			multi.sh
+original author			Anders Lindén
+initial date			011230
+description			Shellscript for creating multisession cds with BashBurn.
+				
+			
+filename			configure.sh
+original author			Anders Lindén
+initial date			Late 2001
+description			This is the configuration program of BashBurn. You can change
+				all the values of the configfile (/etc/bashburnrc) with it.
+
+
+filename			convert_mp3s.sh
+original author			Anders Lindén
+initial date			Late 2001
+description			This script converts the mp3 files in BURNDIR to wav-files.
+
+
+filename			convert_oggs.sh
+original author			Anders Lindén
+initial date			020724
+description			This script converts the ogg files in BURNDIR to wav-files.
+
+
+filename			bincue.sh
+original author			Anders Lindén
+initial date			030513
+description			The file that makes it possible to burn bin/cue files
+				with BashBurn. This file is still in early stages and has
+				not been tested very much. Report bugs to Anders.
+
+
+filename			check_path.sh
+original author			Wilmer Jaramillo
+initial date			040117
+description			This script checks for all apps needed by BashBurn and reports
+				back whether they are installed or not.
+
+
+filename			datadefine.sh
+original author			Anders Lindén
+initial date			Early 2005
+description			This script is where you define what data
+				you want to burn with BashBurn.
+
+filename			Makefile
+original author			Wilmer Jaramillo
+initial date			061215
+description			For install MyBashBurn project
+
+
+=============================================
+$Id: FILES 28 2007-01-06 17:05:14Z k0k $

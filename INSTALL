@@ -1,0 +1,96 @@
+==================
+MyBashBurn INSTALL
+==================
+
+ ----------
+( TAR FILE )
+ ----------
+
+If you use the tarball source:
+
+Unpack the file:
+ $ tar xvjf mybashburn-{version}-{release}.tar.bz2
+
+Arrive to the directory where unpack:
+ $ cd mybashburn-{version}/
+
+Run the Makefile, you need privileges of root:
+ $ su -c 'make install'
+
+Install you config file as user:
+ $ make conf
+
+When finished you can delete the folder you unpacked MyBashBurn in,
+open any console and type:
+ $ mybashburn
+
+For read the manual type:
+ $ man mybashburn
+
+==================
+
+ ----------
+( RPM FILE )
+ ----------
+
+If you use the rpm file as root to install using RPM command:
+ $ rpm -ivh mybashburn-{version}-{release}.noarch.rpm
+
+When the package is installed open any console and type:
+ $ mybashburn
+
+For read the manual type:
+ $ man mybashburn
+
+==================
+
+ --------------
+( DEB WAY/FILE )
+ --------------
+
+If you use a Debian unstable system:
+ $ aptitude install mybashburn
+
+When the package is installed open any console and type:
+ $ mybashburn
+
+For read the manual type:
+ $ man mybashburn
+
+Only if you downloaded the deb file, as root to install using dpkg command:
+ $ dpkg -i mybashburn_{version}-{release}_all.deb
+
+==================
+
+ -------
+( NOTES )
+ -------
+
+When run for first time, remember that you must have to setup MyBashBurn
+before trying to use it, you have to enter in the menu "Configure MyBashBurn",
+alternatively check you system by the backend applications using the option in
+the menu "Check Program Paths" search function and install manually if not 
+FOUND them. 
+
+==================
+
+ -----------------
+( TROUBLESHOOTING )
+ -----------------
+
+For those that have systems where the bash executable isn't located 
+in /bin/bash, you should fix it of two ways:
+	
+1)  Create a symlink from the executable to /bin/bash (recommend).
+ $ ln -s /path/to/bash /bin/bash
+
+2)  To look all scripts for the line '/usr/bin/env bash' and replace it
+with '/path/to/bash' us to has used find and perl command for found and adjust
+(very hard, not recommend):
+ $ find -type f -perm /a+x -exec perl -i.back -pe 's/^#!\/bin\/bash$/#!\/path\/to\/bash\//' {} \;
+
+For more information visit:
+http://mybashburn.sf.net/index.html#Users
+
+===============================================
+$Id: INSTALL 35 2007-05-24 12:06:48Z k0k $

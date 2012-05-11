@@ -1,0 +1,108 @@
+############################
+## CONFIGFILE OF BASHBURN ##
+############################
+#
+# Top level configuration for the MyBashBurn program
+# License: GPL v2 (http://www.gnu.org/licenses/gpl.html)
+#
+
+# Is it configured?
+BBISCONF: 0
+
+
+#########################################
+# General:				#
+#########################################
+# please change the values. (ROOTDIR you
+# have to change, the others you can
+# change by MyBashBurn.
+#
+
+# location of cd writer:
+BBCDWRITER: <Change me>
+
+# location of cdrom device file:
+BBCDROM: <Change me>
+
+# location of cdrom mount point:
+BBCDMNT: <Change me>
+
+# the speed of your burner:
+BBSPEED: -1
+
+# type of blanking
+BBBLANKING: fast
+
+# number of devices
+BBNUMDEV: 1
+
+# where MyBashBurn is installed
+BBROOTDIR: /usr/share/mybashburn
+
+# where files to be burnt are located
+BBBURNDIR: /tmp/burn
+
+# fifo dir for piped burning of audio cds
+BBFIFODIR: /tmp
+
+#########################################
+# Information of the CD:		#
+#########################################
+# the following informations are also   
+# burnt on every CD. If you want, fill	
+# them, but it's not necessary.		
+#
+
+# you copyright:
+BBCOPYRIGHT: GPL
+
+# a short description of the content of the CD:
+BBDESCRIPTION: Burn with MyBashBurn
+
+# the author - hey, that's you, isn't it?
+BBAUTHOR: <Change me>
+
+# the publisher:
+BBPUBLISHER: <Change me>
+
+# the name of a package 
+# (a package are several CDs belonging to one package -
+#  that's important e.g. for distributions)
+BBNAMEOFPACKAGE: <Change me>
+
+# label of the cd
+BBLABEL: MyBashBurn CD
+
+#################################
+# Misc Options 			#
+#################################
+
+# use normalize or not. Default is no.
+BBNORMALIZE: no
+
+# driver options. For example burnsafe or swabaudio. 
+# leave this blank if unsure. default is nothing.
+BBOPT_ONE: 
+
+# whether to delete temp files after burn.
+# default is no
+BBDELTEMPBURN: no
+
+# whether MyBashBurn should support overburn.
+# default is no
+BBOVERBURN: no
+
+# whether MyBashBurn should indicate that audio data should be copy protected
+# default is no
+BBCOPY_PROTECT: no
+
+# Set bitrate for encoding
+# default 128
+BBBITRATE: 128
+
+# The language for MyBashBurn
+# default is English
+BBLANG: English
+
+# DAO or TAO mode
+BBDTAO: -tao

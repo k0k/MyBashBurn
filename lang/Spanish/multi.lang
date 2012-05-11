@@ -1,0 +1,37 @@
+# multi.sh - Spanish language
+
+bb_multi_enter_1="Presione [ENTER] para volver al menu principal."
+bb_multi_enter_2="Presione [ENTER] para continuar."
+
+bb_multi_burn_1="ISO encontrado..."
+bb_multi_burn_2=" si esta NO es su primera grabacion a un CD Multisesion"
+bb_multi_burn_3=" entonces este ISO *DEBE* ser creado utilizando informacion valida de la sesion previa"
+bb_multi_burn_4=" Porque: entonces sin esa informacion esta sesion sera invisible y inutil"
+bb_multi_burn_5="CD grabado..."
+bb_multi_burn_6=" No se encontro una imagen ISO, intentando crear una..."
+bb_multi_burn_7="Obteniendo informacion de la sesion previa usando -msinfo"
+bb_multi_burn_8=" la informacion msinfo necesaria para Multisesion es:"
+bb_multi_burn_9="si los parentesis"
+bb_multi_burn_9b="tienen dos numeros con una coma - TODO ESTA OK PARA SEGUIR!"
+bb_multi_burn_10="un mensaje de error terminando con: \"cdrecord: Cannot read session offset\" significa que es un CD en blanco"
+bb_multi_burn_11="un mensaje de error terminando con: \"cdrecord: No disk / Wrong disk!\" significa que no hay disco en el dispositivo"
+bb_multi_burn_12="se obtuvo informacion de Multisesion valida, agregando argumentos:"
+bb_multi_burn_13="La primera grabacion Multisesion al CD no necesita el puntero de la sesion anterior"
+bb_multi_burn_14="Ahora, crea el ISO si es posible..."
+
+bb_multi_burn_14b="Etiqueta de su CD de Datos: "							# New in 1.6
+
+bb_multi_burn_15="ISO creado"
+bb_multi_burn_16="Error: No se pudo crear el archivo ISO."
+bb_multi_burn_17="Tal vez... No hay archivos en"
+bb_multi_burn_18="Tal vez no tienes permisos de escritura?"
+
+bb_multi_menu_title="CD Multisesion"
+bb_multi_menu_1="Primera grabacion a un CD Multisesion"
+bb_multi_menu_2="Continuar CD Multisesion"
+bb_multi_menu_3="Terminar CD Multisesion"
+bb_multi_menu_0="Volver"
+bb_multi_menu_entry="Su opcion? "
+
+bb_multi_ch0="Volver al menu principal..."
+bb_multi_err="Por favor ingrese "

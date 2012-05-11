@@ -1,0 +1,36 @@
+====================
+MyBashBurn ChangeLog
+====================
+
+MyBashBurn 1.0.2 (Visnu)
+* Mon May 28 2007 Wilmer Jaramillo <wilmer@fedoraproject.org>
+- Fixed bug of compatibility for RHEL and CentOS Enterprise Linux. (#1727042)
+- Fixed bug on define burn data menu when navigate names with blank spaces (#1630644).
+- Updated Makefile.
+- Updated man and INSTALL files.
+
+MyBashBurn 1.0.1 (Tombstone)
+* Sun Jan 07 2007 Wilmer Jaramillo <wilmer@fedoraproject.org>
+- Better auto detection of devices cdreader.
+- Removed Install.sh file by more easy and flexible Makefile.
+- Added function against race conditions on temp files.
+- Added statusbar feature.
+- Changed the old location /usr/local/BashBurn by /usr/share/mybashburn. 
+- Now MyBashBurn look for the /etc/mybashburnrc, ~/.mybashburnrc in that order.
+- Updated man file.
+- Support translate of cancel, exit, and help button on some dialog.
+- Added more english and spanish translate.
+- Option of change the 'root directory' have been deprecated for some time and will be removed.
+- Cleanup functions.
+
+MyBashBurn 1.0 (Genesis)
+* Tue Nov 20 2006 Wilmer Jaramillo <wilmer@fedoraproject.org>
+- Firt public release of formally MyBashBurn (versions beta was called XBashBurn).
+- Probe of concept for dialog box in some options.
+- Auto detection of devices CD/DVD RW, driver options, languages and mount point.
+- Added a 'lock dir' that warning about multiple instances.
+- Include file man/mybashburn.1.gz (man mybashburn).
+- Include file mybashburn.spec for built package in RPM .
+
+=================================================
+$Id: ChangeLog 36 2007-05-29 00:59:12Z k0k $

@@ -1,0 +1,10 @@
+# commonfunctions.sh - Swedish language file
+
+bb_cf_text1="Det verkar som om CDn redan är bränd. Vill du rensa den?"
+bb_cf_text2="Svara bara 'yes' om mediumet är omskrivbart. Ange"
+bb_cf_text3="'abort' om du vill avbryta och återgå till menyn."
+bb_cf_text4="Avbryter..."
+
+bb_cf_text5="Försöker bränna utan att rensa CDn. Detta kommer förmodligen att misslyckas."
+bb_cf_text6="Rensning misslyckades. CD-bränning avbruten."
+

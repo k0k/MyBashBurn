@@ -1,0 +1,76 @@
+# audio_menu.sh - Swedish language
+
+bb_am_enter_1="Tryck enter för att återgå till huvudmenyn"
+bb_am_enter_2="Mata in en blank CD och tryck [ENTER] för att fortsätta"
+
+bb_am_nomp3s="Inga Mp3-filer i "
+bb_am_nooggs="Inga OGG-filer i "
+bb_am_noflacs="Inga FLAC-filer "
+
+bb_am_norm_1=" Normaliserar "
+
+bb_am_err_1="[FEL]: Tyvärr :( MyBashBurn kan inte läsa CDn!"
+
+bb_am_conf_1=" Du valde att kopiera dessa spår: "
+bb_am_conf_2="Stämmer detta? (y/n): "
+
+bb_am_named_1="Skivinformation..."
+bb_am_named_2="Tryck [ENTER] för att fortsätta eller "
+bb_am_named_3="Ange ett spårnummer att kopiera "
+bb_am_named_4="Mellanrum i namn stöds numera!"
+bb_am_named_5="ie. Artist - Låt, Artist_Låt, Artist-Låt."
+bb_am_named_6="Vad är spårnamnet "
+
+bb_am_rip_1=" Kopierar spår "
+bb_am_rip_2="Spår kopierade!"
+
+bb_am_encfilt=" Kodfilterkommando..."
+
+bb_am_menu_title="Musikmeny"
+bb_am_menu_1="Bränn musik från Mp3/OGG/Wav/FLAC"
+bb_am_menu_2="Bränn musik direkt"
+bb_am_menu_3="Kopiera musik-CD (CD till CD)"
+bb_am_menu_4="kopiera musik-CD (CD till hårddisk)"
+bb_am_menu_5="Bränn XMMS-låtlista"
+bb_am_menu_6="Skapa Mp3s från Wav-filer"
+bb_am_menu_7="Skapa OGG från Wav-filer"
+bb_am_menu_8="Skapa FLAC från Wav-filer"
+bb_am_menu_9="Skapa Mp3 från CD"
+bb_am_menu_10="Skapa OGG från CD"
+bb_am_menu_11="Skapa FLAC från CD"
+bb_am_menu_0="Tillbaka"
+bb_am_menu_input="Ditt val? "
+
+bb_am_ch3_1="Bränning slutförd - Tack för att du använder MyBashBurn"
+bb_am_ch3_2="Ett fel uppstod! Kunde inte bränna CDn."
+bb_am_ch3_3="Ett fel uppstod! Kunde inte kopiera spår från "
+
+bb_am_ch4_1="Spår kopierade och sparade i "
+bb_am_ch4_2=" Om du vill skapa"
+bb_am_ch4_3="Mp3,OGG eller FLAC, använd respektive funktion i menyn."
+
+bb_am_ch5="Inläsning av spellista misslyckades. Bränner inte."
+
+bb_am_ch6_1=" Skapad..."
+bb_am_ch6_2=" Kunde inte komprimeras"
+bb_am_ch6_3="Inga Wav-filer i "
+
+bb_am_ch7_1="Fil skapad..."
+
+bb_am_ch9_1=" Skapar Mp3s..."
+bb_am_ch9_2="Mp3-fil(er) skapad(e). Filerna finns i "
+
+bb_am_ch10_1=" Skapar Oggs..."
+bb_am_ch10_2="OGG-fil(er) skapad(e). Filerna finns i "
+
+bb_am_ch11_1="FLAC-fil(er) skapad(e). Filerna finns i "
+
+bb_am_ch0="Återgår till huvudmenyn"
+
+bb_am_error="Var vänlig välj "
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+===============
+MyBashBurn TODO
+===============
+
+Same level of priority of MyBashBurn/BashBurn project:
+
+LP = Low priority
+MP = Medium priority
+HP = High priority
+S  = Success
+R  = Replaced
+
+*) If a CDRW is already written, enable some kind of automatic blanking. (MP)
+   (First of course warn about files being overwritten by the blanking.)
+
+*) Split up User Interface and Core funtions. (HP)
+
+*) Split configuration file for users, for example: ~/mybashburnrc. (S)
+
+*) More dialog box. (HP)
+
+*) Fix some problems with Install.sh on Slackware plataforms. (R&S)
+
+*) Atomic Make-Remove temp files. (S)
+
+*) Translations of man page and to extend HOWTO. (MP)
+
+*) More cdrecord output with dialog. (HP)
+
+*) Themeable. (MP)
+
+============================================
+$Id: TODO 28 2007-01-06 17:05:14Z k0k $

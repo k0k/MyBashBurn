@@ -1,0 +1,173 @@
+# configure.sh - German language
+
+bb_conf_menu1="CD-Brenner\t\t"
+bb_conf_menu2="CD-Leser (Geraete-Datei)\t"
+bb_conf_menu3="CD-Leser (Mount-Punkt)\t"
+bb_conf_menu4="Brenngeschwindigkeit\t"
+bb_conf_menu5="Loeschart (CDRW)\t\t"
+bb_conf_menu6="Anzahl der Geraete\t"
+bb_conf_menu7="Wurzel-Verzeichnis\t"
+bb_conf_menu8="Brenn-Verzeichnis\t\t"
+bb_conf_menu9="CD Bezeichner (Label)\t"
+bb_conf_menu10="Copyright\t\t\t"
+bb_conf_menu11="Autor\t\t\t"
+bb_conf_menu12="Verleger\t\t\t"
+bb_conf_menu13="Beschreibung\t\t"
+bb_conf_menu14="Name des Packets\t\t"
+bb_conf_menu15="Normalisieren (Audio)\t"
+bb_conf_menu16="Treiber Optionen\t\t"
+bb_conf_menu17="FIFO-Verzeichnis\t\t"
+bb_conf_menu18="Loeschen nach Brennen\t"
+bb_conf_menu19="Erlaube ueberbrennen\t"
+bb_conf_menu20="Kopierschutz\t\t"
+bb_conf_menu21="Bitrate\t\t\t"
+bb_conf_menu22="Sprache\t\t\t"
+bb_conf_menu23="DAO/TAO\t\t\t"
+bb_conf_menu24="Einstellungen anwenden\t"
+bb_conf_menu25="Standardeinstellungen anwenden\t"
+bb_conf_menu0="Zurueck"
+bb_conf_menu_entry="Deine Eingabe"
+
+bb_conf_ch1_1="Das Brenngeraet muss in der Form '0,0,0' (fuer SCSI) eingegeben werden,"
+bb_conf_ch1_2="bzw. 'ATAPI:0,0,0' oder '/dev/hdX' (fuer IDE Brenngeraete,"
+bb_conf_ch1_3="wobei 'hdX' das Brenngeraet ist, wie z.B. 'hdc')."
+bb_conf_ch1_4="Du kannst auch Geraetenamen wie z.B. 'yahama', 'sanyo', usw. benutzen,"
+bb_conf_ch1_5="wenn "
+bb_conf_ch1_6="richtig konfiguriert ist."
+bb_conf_ch1_7="(Moegliche) SCSI Geraete:"
+bb_conf_ch1_8="(Moegliche) IDE Geraete:"
+bb_conf_ch1_9="Gib das Brenngeraet ein: "
+
+bb_conf_ch2_1="Der Pfad zur CDROM-Geraete-Datei ist oft z.B. '/dev/cdrom' oder '/dev/dvd'."
+bb_conf_ch2_2="Liste von moeglichen CDROM-Geraeten (nach der Datei '/etc/fstab'):"
+bb_conf_ch2_3="Gib eine CDROM-Geraete-Datei ein: "
+
+bb_conf_ch3_1="Der Mount-Punkt zur CDROM ist meistens z.B. '/mnt/cdrom' oder '/mnt/dvd'."
+bb_conf_ch3_2="Liste von moeglichen CDROM-Geraeten (nach der Datei '/etc/fstab'):"
+bb_conf_ch3_3="Gib einen CDROM-Mount-Punkt ein: "
+
+bb_conf_ch4_1="Beachte dass neuere 'cdrecord' Versionen keine Standardgeschwindigkeit"
+bb_conf_ch4_2="von '1' haben. Fuer MMC konforme Geraete ist die Standardeinstellung,"
+bb_conf_ch4_3="mit maximaler Geschwindigkeit zu schreiben. So macht es normalerweise"
+bb_conf_ch4_4="keinen Sinn eine Standardgeschwindigkeit einzustellen. Solange Du keinen"
+bb_conf_ch4_5="besonderen Grund hast, nehme die Brenngeschwindigkeit '-1' und lasse somit"
+bb_conf_ch4_6="cdrecord seine internen geraetespezifischen Standardeinstellungen benutzen."
+bb_conf_ch4_7="Gib eine Brenngeschwindigkeit ein: "
+
+bb_conf_ch5_1="Gib die Art des Loeschens ein (CDRW). Standard: 'all' oder 'disc'."
+bb_conf_ch5_2="Momentan eingestellter Wert: "
+
+bb_conf_ch6_1="Besitzt Du 2 Geraete (ein CD Lese- UND Schreibgeraet)?"
+bb_conf_ch6_2="Wenn ja, gib '2' ein. Wenn nicht gib '1' ein."
+
+bb_conf_ch7_1="Das Wurzel-Verzeichnis ist der Speicherort der MyBashBurn Shellskripte."
+bb_conf_ch7_2="Aendere das nur, wenn Du weist was Du tust!"
+bb_conf_ch7_3="Gib einfach "
+bb_conf_ch7_4="\nin der Eingabeaufforderung ein, wenn Du es lassen moechtest wie es ist."
+
+bb_conf_ch8_1="In das Brennverzeichnis kopierst/verlinkst Du die zu brennenden Dateien."
+bb_conf_ch8_2="Vergewissere Dich, dass Du Schreibrechte fuer dieses Verzeichnis hast."
+
+bb_conf_ch9_1="Das ist der Name der als Mount-Punkt benutzt wird, "
+bb_conf_ch9_2="genutzt von dem Solaris Volume Management-System; und der Name der"
+bb_conf_ch9_3="der CD auf einer Win32 oder einer Apple Mac Platform zugeordnet wird."
+bb_conf_ch9_4="Der momentane Bezeichner (Label) ist: "
+bb_conf_ch9_4b="Wenn Du jedesmal nach dem gewuenschten Bezeichner gefragt werden willst"
+bb_conf_ch9_4c="gib '<ask-me>' als 'Bezeichner (Label)' ein."
+bb_conf_ch9_5="Gib nachfolgend den gewuenschten Bezeichner (Label) der CD ein!"
+
+bb_conf_ch10_1="Wenn Du ein Copyright fuer Deine CD angeben willst, gib es hier ein!"
+
+bb_conf_ch11_1="Das sollte den Ersteller der CDROM beschreiben, gewoehnlich"
+bb_conf_ch11_2="mit einer Postadresse und Telefonnummer. Auf der CD ist Platz"
+bb_conf_ch11_3="fuer 128 Zeichen Information."
+bb_conf_ch11_4="Der gegenwaertige Autor ist: "
+bb_conf_ch11_5="Gib den Autor/Besitzer der CD ein - hey das bist Du, oder nicht?"
+
+bb_conf_ch12_1="Das sollte den Verleger der CDROM beschreiben, gewoehnlich"
+bb_conf_ch12_2="mit einer Postadresse und Telefonnummer."
+bb_conf_ch12_3="Auf der CD ist Platz fuer 128 Zeichen Information."
+bb_conf_ch12_4="Der gegenwaertige Verleger ist: "
+bb_conf_ch12_5="Gib den Verleger der CD ein (wenn es einen gibt)!"
+
+bb_conf_ch13_1="Das sollte die Anwendung die auf der CD ist beschreiben."
+bb_conf_ch13_2="Auf der CD ist Platz fuer 128 Zeichen Information."
+bb_conf_ch13_3="Die gegenwaertige Beschreibung lautet: "
+bb_conf_ch13_4="Beschreibe den Inhalt der CD: "
+
+bb_conf_ch14_1="Ein Paket besteht aus mehreren CDs, zum Beispiel wie bei einem"
+bb_conf_ch14_2="Betriebssystem, bei dem die Software auf mehrere CDs verteilt ist."
+bb_conf_ch14_3="Das ist optional.  Wenn Du es benutzst, gib die Anzahl der CDs"
+bb_conf_ch14_4="und jede CD-Nummer an."
+bb_conf_ch14_5="Der gegenwaertige Paketname ist: "
+bb_conf_ch14_6="Gib den Namen des Paketes ein!"
+
+bb_conf_ch15_1="Normalisierung ermoeglicht die 'Glaettung' der Lautstaerke von wav-Audiodateien."
+bb_conf_ch15_2="Das ist nuetzlich fuer Dinge wie das Erstellen von mp3-Mischungen, wo"
+bb_conf_ch15_3="unterschiedliche Aufnahmepegel verschiedenerer Alben in der Lautstaerke"
+bb_conf_ch15_4="sehr von Lied zu Lied schwanken. Gegenwaertig ist folgendes gesetzt: "
+bb_conf_ch15_5="Gib nur 'yes' ein, wenn Du das Normalisierungsprogramm installiert hast, anderenfalls gib 'no' ein."
+
+bb_conf_ch16_1="Gib die Treiberoption(en) die Du benuetzen moechtest ein. Trenne mehrere Optionen"
+bb_conf_ch16_2="mit einem Komma. Wenn Du unsicher bist, druecke 'Enter' ohne etwas zu schreiben."
+
+bb_conf_ch17_1="Gib den Ort des FIFO-Verzeichnisses ein. Das wird nur fuer das Brennen"
+bb_conf_ch17_2="per Pipe benoetigt, und meistens ist der Standardwert passend."
+bb_conf_ch17_3="Wenn Du den lassen willst gib "
+bb_conf_ch17_4=" in der Eingabeaufforderung ein."
+bb_conf_ch17_5=" ist das gegenwaertige FIFO-Verzeichnis)"
+
+bb_conf_ch18_1="Loesche Dateien in "
+bb_conf_ch18_2=" nachdem das Brennen fertig ist?"
+bb_conf_ch18_3="Der Standardwert ist 'no' (nein), was Du waehlen solltest, wenn"
+bb_conf_ch18_4="Du diese Dateien mehr als einmal brennen moechtest (ansonsten 'y'=ja)."
+
+bb_conf_ch19_1="Moechtest Du MyBashBurn erlauben zu ueberbrennen (overburn)? Dein"
+bb_conf_ch19_2="Brenner muss das unterstuetzen, und es ist selbst dann nicht sicher"
+bb_conf_ch19_3="dass es auch funktioniert, weil das mehr auf die CD brennen koennte"
+bb_conf_ch19_4="als fuer das was sie ausgelegt wurde."
+bb_conf_ch19_5="Der Standardwert ist 'no' (yes/no)."
+
+bb_conf_ch20_1="Diese Einstellung ist fuer Audio-CDs. Sind die Inhalte kopiergeschuetzt?"
+bb_conf_ch20_2="Gib 'no' (nein (=Standard)) oder 'yes' (ja) ein. "
+bb_conf_ch20_3="HINWEIS: "
+bb_conf_ch20_4="Diese Option schuetzt die Audiodaten"
+bb_conf_ch20_5=" nicht"
+bb_conf_ch20_6=" technisch!"
+bb_conf_ch20_7="'cdrecord' vermerkt dies lediglich beim Brennen auf der CD (TOC)."
+
+bb_conf_ch21_1="Die Bitrate ist ein Haupteinfluss auf die Qualitaet von Audio-Dateien."
+bb_conf_ch21_2="Je hoeher die Bitrate, desto hoeher ist die Qualitaet."
+bb_conf_ch21_3="Hoehere Bitrate bedeutet natuerlich auch groessere Audio-Dateien."
+bb_conf_ch21_4="Konfiguriere die Bitrate fuer mp3 und ogg Audio-Dateien."
+bb_conf_ch21_5="Standardwert: '128'. "
+
+bb_conf_ch22_1="Hier stellst Du die Sprache von MyBashBurn ein (Standard: 'English')."
+bb_conf_ch22_2="Verfuegbare Sprache:"
+
+bb_conf_ch23_1="Dies gibt 'cdrecord' den Modus fuers Brennen vor, waehle entweder:"
+bb_conf_ch23_2="'SAO' (Session at Once)"
+bb_conf_ch23_2b=" wird auch  "
+bb_conf_ch23_2c="'DAO' (Disk at once)"
+bb_conf_ch23_3=" genannt, oder:"
+bb_conf_ch23_4="'TAO' (Track at once)"
+bb_conf_ch23_5=". Der Standardwert ist 'TAO'."
+bb_conf_ch23_6="Fuer mehr Informationen, siehe die 'cdrecord' Manualseite ('man cdrecord')."
+bb_conf_ch23_7="Gib Deine Wahl als '-tao', '-sao' oder '-dao' ein (SAO und DAO sind das gleiche.)"
+
+
+
+bb_conf_apply_1="Eingaben wurden !"
+bb_conf_apply_2="Konnte nicht schreiben in"
+bb_conf_apply_3="Du koenntest 'chmod 666' ausfuehren wollen..."
+
+bb_conf_def_1="Standardwerte angewendet!"
+bb_conf_def_2="('BBROOTDIR' hat *KEINE* Standardeinstellung - Du musst das eingeben!)"
+
+bb_conf_xit_1="Zurueck zum Hauptmenue"
+bb_conf_xit_2="Hast Du vor dem Verlassen 'Einstellungen anwenden' (Menuepunkt 24) gewaehlt??!!"
+
+bb_conf_err="Bitte nur eingeben:"
+
+
+

@@ -1,0 +1,21 @@
+# commonfunctions.sh - Spanish language file
+
+bb_cf_text1="El CD parece escrito. Desea borrarlo?"
+bb_cf_text2="Solo responda 'yes' si es un regrabable. Ingrese"
+bb_cf_text3="'abort' si desea cancelar y volver al menu."
+bb_cf_text4="Abortando..."
+
+bb_cf_text5="Intentando grabar sin borrar el CD. Probablemente fallara."
+bb_cf_text6="Proceso de borrado fallido. Proceso de grabacion abortado"
+
+bb_cf_exit="¿Realmente desea salir?"
+bb_cf_bye="Saliendo, Adios."
+bb_cf_help="Ayuda de MyBashBurn:"
+bb_cf_howto="Manual"
+bb_cf_make_temp="MyBashBurn: No puede crear archivos temporales,"
+bb_cf_clean_temp="Limpiando archivos temporales ..."
+bb_cf_read_temp="MyBashBurn: No puede leer archivos temporales,"
+
+bb_v_help="Ayuda"
+
+

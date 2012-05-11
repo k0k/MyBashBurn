@@ -1,0 +1,124 @@
+==================
+MyBashBurn Credits
+==================
+
+* Wilmer Jaramillo M. <wilmer@fedoraproject.org>
+by MyBashBurn TUI Dialog.
+
+- Costin Stroie <cstroie@users.sourceforge.net>
+by some code and lots of ideas.
+
+- Horus Acosta <horusacosta@gmail.com>
+by the current cool pretty logo.
+
+- Guillermo Gómez <guillermo.gomez@gmail.com>
+by the old hosting on fedora-ve.org.
+
+- José Luis Rivas <ghostbar38@gmail.com>
+by the work as MyBashBurn's Maintainer in Debian.
+
+==================
+
+To all other users, developers and contribuitors of 
+BashBurn (Core) Thanks, they are:
+
+* Anders Lindén by to have written BashBurn Core.
+
+- Nick Warne: 
+For bugspotting TO THE EXTREME!
+
+- Santiago:
+The czech translation
+
+- Eivind Ødegård:
+The norwegian translation
+
+- Karol Krenski: 
+For the SVN server
+
+- Fabian Stietzel:
+Added function to ask for CD label
+
+- Guillermo Bonvehi:
+New spanish translation and bugfix
+
+- Miguel Ross:
+The french translation
+
+- Markus Kollmar:
+The german translation, and being as close
+to second in command as possible. :-)
+
+- Jakub Krajniak:
+For the polish translation and helping with the SVN server
+
+- Guillermo Juarez:
+For the spanish translation
+
+- Steven W. Orr:
+For lots and lots of help, and for setting up
+the old mailing list. 
+
+- Tobias Rittweiler:
+For being second in command for a long time. 
+What I didn't know, he did.
+
+- Nicol N. Schraudolph:
+For fixing the bash detection issue
+
+- ziL:
+For making a perty logo and testing BashBurn
+
+- Jim Shofstall:
+For misc small fixes and lots of ideas
+
+- Pat:
+For fixing the bin/cue script
+
+- Page:
+For the little fix to xmmsread.sh
+
+- Marcel Karras:
+For providing the new webhost and subdomain at freebits.de.
+(BashBurn is not on freebits anymore)
+
+- Dennis Wilson:
+For designing the Magma webpage at freebits.de
+
+- "Angles" Puglisi:
+For creating RPMs of Magma and rewriting the multisession script.
+(Angles does not create rpms anymore)
+
+- Cristoffer Bruun:
+For taking care of driver options issues.
+
+- Jean-François Deverge:
+For adding pipe enhanced mp3+wav burning.
+
+- Joel Wiesmann:
+For helping me with lots of stuff and giving me the chance to test menubuilder.
+(The program the menus for Magma were originally made in.) 
+Menubuilder is available from www.secuserv.ch.vu
+
+- Olav Vitters:
+For fixing the annoying "Spaces in mp3 files" bug.
+
+- Hampus Ram:
+For solving the "Burn anyways" bug.
+
+- Elvstone:
+For helping me with the configure script 
+(Even though Tobias thrashed it and rewrote it), and a nice logo.
+
+- Matte aka Pälsis:
+For making me aware of the mkisofs bug.
+
+- MadMaN:
+For actually using and bugtesting Magma/BashBurn.
+
+#linuxhelp on irc.openprojects.net for helping me with many problems.
+#bash on irc.freenode.net for help.
+Thanks all for your help. It's really appreciated.
+
+===============================================
+$Id: CREDITS 36 2007-05-29 00:59:12Z k0k $

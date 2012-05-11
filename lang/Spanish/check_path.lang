@@ -1,0 +1,15 @@
+# check_path.sh - Spanish language
+
+bb_cp_1="Aplicacion Encontrada"
+bb_cp_2="en"
+bb_cp_3="Aplicacion NO ENCONTRADA!"
+bb_cp_4="Si no lo instala puede que no funcionen todas las funciones."
+bb_cp_5="Comprobando Rutas..."
+bb_cp_6=" Herramientas de grabacion"
+bb_cp_7=" Extractores"
+bb_cp_8=" Codificadores y Decodificadores"
+bb_cp_9=" Misc"
+bb_cp_10="NOTA: Instale los programas que no fueron encontrados"
+bb_cp_11="o puede que MyBashBurn no funcione correctamente."
+bb_cp_12="Presione [ENTER] para volver al menu principal."
+bb_cp_13="Por Favor espere ..."

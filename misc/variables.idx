@@ -1,0 +1,48 @@
+# Variables.idx 
+# $Id: variables.idx 36 2007-05-29 00:59:12Z k0k $
+
+# Variables used by BashBurn
+export BBROOTDIR="$( cat $BBCONFFILE | grep -v '^#' | grep BBROOTDIR:  | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBROOTDIR="${BBROOTDIR%*/}"
+export BBISCONF="$(   cat $BBCONFFILE     | grep -v '^#'| grep BBISCONF:    | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBCDROM="$(   cat $BBCONFFILE | grep -v '^#' | grep BBCDROM:    | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")" 
+export BBCDMNT="$(   cat $BBCONFFILE | grep -v '^#' | grep BBCDMNT:    | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBCDWRITER="$(cat $BBCONFFILE | grep -v '^#' | grep BBCDWRITER: | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBSPEED="$(   cat $BBCONFFILE | grep -v '^#' | grep BBSPEED:    | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBBLANKING="$(cat $BBCONFFILE | grep -v '^#' | grep BBBLANKING: | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBNUMDEV="$(  cat $BBCONFFILE | grep -v '^#' | grep BBNUMDEV:   | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBBURNDIR="$( cat $BBCONFFILE | grep -v '^#' | grep BBBURNDIR:  | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]//g")"
+export BBBURNDIR="${BBBURNDIR%*/}"
+export BBLABEL="$( cat $BBCONFFILE 		| grep -v '^#' 	| grep BBLABEL:  		| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBCOPYRIGHT="$( cat $BBCONFFILE 	| grep -v '^#' 	| grep BBCOPYRIGHT:  	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBDESCRIPTION="$( cat $BBCONFFILE 	| grep -v '^#' 	| grep BBDESCRIPTION:  	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBAUTHOR="$( cat $BBCONFFILE 	| grep -v '^#'	| grep BBAUTHOR:  	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBPUBLISHER="$( cat $BBCONFFILE 	| grep -v '^#'	| grep BBPUBLISHER:	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBNAMEOFPACKAGE="$( cat $BBCONFFILE 	| grep -v '^#'| grep BBNAMEOFPACKAGE:   	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBNORMALIZE="$( cat $BBCONFFILE 	| grep -v '^#'| grep BBNORMALIZE:   	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBOPT_ONE="$(   cat $BBCONFFILE 	| grep -v '^#'| grep BBOPT_ONE:   	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBFIFODIR="$(   cat $BBCONFFILE 	| grep -v '^#'| grep BBFIFODIR:   	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBDELTEMPBURN="$(   cat $BBCONFFILE 	| grep -v '^#'| grep BBDELTEMPBURN:	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBOVERBURN="$(   cat $BBCONFFILE 	| grep -v '^#'| grep BBOVERBURN:     	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBCOPY_PROTECT="$(   cat $BBCONFFILE     | grep -v '^#'| grep BBCOPY_PROTECT:	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBBITRATE="$(   cat $BBCONFFILE     | grep -v '^#'| grep BBBITRATE:	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBLANG="$(   cat $BBCONFFILE     | grep -v '^#'| grep BBLANG:	| cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+export BBDTAO="$(   cat $BBCONFFILE     | grep -v '^#'| grep BBDTAO:    | cut -d ":" -f 2- | sed -e "s/^[[:blank:]]*//g")"
+
+#CDWriter autodetect - still under development
+#It's looking for CD string in the name of device
+#Tested only on two device, Iomega (USB) and LG(IDE)
+#LG use SCSI emulation, it wasn't tested on ATAPI
+#device, I've never used in that way CD Recorder
+if [ "${BBCDWRITER}" == "auto" ]; then
+    echo "$bb_text_7"
+    export BBCDWRITER="`${BB_CDBURNCMD} -scanbus 2>/dev/null | grep CD | cut -f2`"
+    echo "$bb_text_8 ${BBCDWRITER}"
+    sleep 1
+fi
+# Variables used by dialog
+export OPTS='--help-button --help-status --fixed-font --keep-window'
+export CODENAME="Visnu"
+export BACKTITLE="${BBVERSION}(${CODENAME}) - http://mybashburn.sf.net/"
+export DIALOG_HELP='102'
+export DIALOG_EXTRA='103'

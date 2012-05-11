@@ -1,0 +1,73 @@
+a=============
+MyBashBurn FAQ
+==============
+
+
+Why?
+____
+
+MyBashBurn born how alternative to the User Interface (UI) of classic 
+BashBurn, doing use of advanced and extensive regular expressions for
+the control of the capabilities of backend applications for burn and
+create audio files. 
+
+
+What can MyBashBurn do?
+_______________________
+
+MyBashBurn can burn data cds, music cds, multisession cds. It can burn and
+create ISO files. It can burn bin/cue files, create mp3s, oggs and flac
+files. Maybe even more :-) In short, it can do most things you need, and 
+if it cant then	tell me and I'll get right on it.
+
+
+Why a new project?
+__________________
+
+Mainly because i believe in the natural evolution of software like a
+principle common of the anatomy of the information and maybe because some
+changes in the aspect and code of MyBashBurn not necessarily must like
+to all. MyBashBurn not want damage the spirit of BashBurn project, just fact share
+and respect them, as also this "is a couple of shellscripts written to make
+cd burning in the console easier (), without the need for a lot of libraries 
+like gtk or qt for a pretty GUI". For more information visit:
+http://mybashburn.sf.net/index.html#History
+
+
+Can I steal the code and base my own programs on it?
+____________________________________________________
+
+Of course yes, this project is exactly a fork of other, just remember
+to release your program under the GPL.
+
+
+Can I help?
+___________
+
+Sure! please visit http://mybashburn.sf.net/index.html#Developers for more
+information. You'll have include in the next release and add you full name
+to the credits file.
+
+
+How do i install MyBashBurn?
+____________________________
+
+Read the omnipresent INSTALL file or visit:
+http://mybashburn.sf.net/index.html#Users
+
+
+Who are you?
+____________
+
+It's less important, please visit:
+http://fedoraproject.org/wiki/WilmerJaramillo
+
+
+Where is this mailinglist I've been hearing so mych about?
+__________________________________________________________
+
+Go to http://mybashburn.sf.net, click on the link that says "mailing list" and
+follow the instructions there on how to sign up.
+
+===========================================
+$Id: FAQ 36 2007-05-29 00:59:12Z k0k $

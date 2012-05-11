@@ -1,0 +1,19 @@
+# commonfunctions.sh - English language file
+
+bb_cf_text1="CD seems to already be written to. Do you wish to blank it?"
+bb_cf_text2="Only answer 'yes' if the media is a rewritable disk. Enter"
+bb_cf_text3="'abort' if you wish to cancel and return to the menu."
+bb_cf_text4="Aborting..."
+
+bb_cf_text5="Trying to burn without blanking CD. This will probably fail."
+bb_cf_text6="Blanking failed. Burn process aborted"
+
+bb_cf_exit="You really want to exit?"
+bb_cf_bye="Quitting, Good bye."
+bb_cf_help="Help for MyBashBurn:"
+bb_cf_howto="HOWTO"
+bb_cf_temp="MyBashBurn: Can't create temp file,"
+bb_cf_clean_temp="Cleaning temporary files ..."
+bb_cf_read_temp="MyBashBurn: Can't read temp file,"
+bb_v_help="Help"
+

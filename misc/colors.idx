@@ -1,0 +1,9 @@
+# colors.idx - Colors used by BashBurn
+$Id: colors.idx 17 2006-12-20 17:13:14Z k0k $
+
+export BBCOLOROFF="\033[1;0m"
+export BBHEADCOLOR="\033[1;32m"  	# green
+export BBMAINCOLOR="\033[37;40m"	# White on black
+export BBSUBCOLOR="\033[1;36m"     	# blue
+export BBTABLECOLOR="\033[1;31m"   	# red
+export BBINPUTCOLOR="\033[1;35m"   	# lilac
